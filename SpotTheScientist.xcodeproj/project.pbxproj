@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		053BC49C27AEF52600BC275F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BC49B27AEF52600BC275F /* AppDelegate.swift */; };
-		053BC49E27AEF52600BC275F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 053BC49D27AEF52600BC275F /* art.scnassets */; };
 		053BC4A027AEF52600BC275F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BC49F27AEF52600BC275F /* ViewController.swift */; };
 		053BC4A327AEF52600BC275F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053BC4A127AEF52600BC275F /* Main.storyboard */; };
 		053BC4A527AEF52A00BC275F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053BC4A427AEF52A00BC275F /* Assets.xcassets */; };
 		053BC4A827AEF52A00BC275F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053BC4A627AEF52A00BC275F /* LaunchScreen.storyboard */; };
+		053BC4B127AEFAFF00BC275F /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = 053BC4B027AEFAFE00BC275F /* scientists.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		053BC49827AEF52600BC275F /* SpotTheScientist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotTheScientist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053BC49B27AEF52600BC275F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		053BC49D27AEF52600BC275F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		053BC49F27AEF52600BC275F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		053BC4A227AEF52600BC275F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		053BC4A427AEF52A00BC275F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		053BC4A727AEF52A00BC275F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		053BC4B027AEFAFE00BC275F /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scientists.json; path = "../../../../Downloads/SwiftOnSundays-main/014 SpotTheScientist/Assets/scientists.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				053BC49B27AEF52600BC275F /* AppDelegate.swift */,
-				053BC49D27AEF52600BC275F /* art.scnassets */,
 				053BC49F27AEF52600BC275F /* ViewController.swift */,
 				053BC4A127AEF52600BC275F /* Main.storyboard */,
 				053BC4A427AEF52A00BC275F /* Assets.xcassets */,
+				053BC4B027AEFAFE00BC275F /* scientists.json */,
 				053BC4A627AEF52A00BC275F /* LaunchScreen.storyboard */,
 			);
 			path = SpotTheScientist;
@@ -123,7 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053BC49E27AEF52600BC275F /* art.scnassets in Resources */,
+				053BC4B127AEFAFF00BC275F /* scientists.json in Resources */,
 				053BC4A827AEF52A00BC275F /* LaunchScreen.storyboard in Resources */,
 				053BC4A527AEF52A00BC275F /* Assets.xcassets in Resources */,
 				053BC4A327AEF52600BC275F /* Main.storyboard in Resources */,
